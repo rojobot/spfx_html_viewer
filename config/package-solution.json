@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-html-viewer-client-side-solution",
+    "id": "55781ebd-9374-4839-8467-0e5b316958f1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "rojobot",
+      "websiteUrl": "https://github.com/rojobot/spfx_html_viewer",
+      "privacyUrl": "https://github.com/rojobot/spfx_html_viewer/blob/main/docs/privacy.md",
+      "termsOfUseUrl": "https://github.com/rojobot/spfx_html_viewer/blob/main/docs/terms.md",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "View native HTML files stored in SharePoint"
+      },
+      "longDescription": {
+        "default": "Display HTML applications from SharePoint document libraries or Site Assets in a sandboxed iframe. Configure the content folder, entry HTML file, optional host allowlist, and site-collection restriction from the property pane. Includes validation, loading states, and SharePoint folder/file pickers."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": [
+        "Productivity",
+        "Content management"
+      ]
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-html-viewer.sppkg"
+  }
+}

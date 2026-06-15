@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1043ef08-fcd4-4357-86bd-ad6ece9e6bae",
+  "alias": "HtmlViewerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": true,
+  "supportedHosts": ["SharePointWebPart", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "HTML Viewer" },
+    "description": { "default": "Displays native HTML from a SharePoint folder" },
+    "officeFabricIconFontName": "FileHTML",
+    "properties": {
+      "sharePointLocation": "SiteAssets/html-app",
+      "initialFile": "index.html",
+      "allowedHosts": "",
+      "restrictToCurrentSite": false
+    }
+  }]
+}

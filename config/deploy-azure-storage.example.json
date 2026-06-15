@@ -1,0 +1,7 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/deploy-azure-storage.schema.json",
+  "workingDir": "./release/assets/",
+  "account": "YOUR_STORAGE_ACCOUNT",
+  "container": "spfx-html-viewer",
+  "accessKey": "YOUR_STORAGE_ACCESS_KEY"
+}

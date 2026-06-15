@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/jest.schema.json",
+  "isEnabled": true,
+  "testMatch": ["<rootDir>/src/webparts/htmlViewer/**/*.test.ts"],
+  "coverage": true,
+  "collectCoverageFrom": [
+    "src/webparts/htmlViewer/sharePointPath.ts",
+    "src/webparts/htmlViewer/propertyValidation.ts",
+    "src/webparts/htmlViewer/urlAllowlist.ts",
+    "src/webparts/htmlViewer/fileUrlBuilder.ts",
+    "src/webparts/htmlViewer/logMessage.ts",
+    "src/webparts/htmlViewer/viewerLogger.ts",
+    "src/webparts/htmlViewer/viewerLayout.ts"
+  ]
+}

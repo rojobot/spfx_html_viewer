@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.11.1",
+    "sdksVersions": {},
+    "version": "1.20.0",
+    "componentType": "webpart",
+    "template": "none",
+    "framework": "none",
+    "solutionName": "spfx-html-viewer",
+    "solutionShortDescription": "View native HTML files stored in SharePoint",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "useHeft": false,
+    "environment": "spo",
+    "packageManager": "npm",
+    "componentName": "Html Viewer",
+    "componentDescription": "Displays native HTML from a SharePoint document library or folder"
+  }
+}
