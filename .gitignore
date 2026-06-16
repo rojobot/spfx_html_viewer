@@ -13,6 +13,7 @@ temp
 release
 sharepoint/solution
 *.sppkg
+.env
 
 # IDE
 .vscode/*
